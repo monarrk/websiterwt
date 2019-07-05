@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Monarrk</title>
+		<!--THIS ICON IS FROM [GIANT DAYS](https://www.boom-studios.com/series/giant-days/); I DO NOT OWN IT-->
+		<link rel="icon" href="https://cdn.glitch.com/011624e3-bd8f-4622-b19d-81054a5d0d61%2Fmonarrkcirc.gif?1556730693033">
+	</head>
+
+	<style>
+		body {
+			background-color: #191919;
+			color: white;
+		}
+
+		.text {
+			background-color: white;
+			color: black;
+			padding: 2em;
+			text-align: center;
+			margin: 5em;
+		}
+
+		.head {
+			font-size: 10em;
+		}
+		
+		h1, h3 {
+			font-size: 3em;
+		}
+
+		code {
+			text-align: left;
+			font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+			color: #52595d;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			border: 1px solid #ccc;
+			background-color: #f9f9f9;
+			padding: 6px 6px;
+			display: inline-block;
+			margin: 0px;
+		}
+	</style>
+
+	<body onload="msggen()">
+		<div id="vm">
+			<div class="text" onclick="msggen()">
+				<h1 class="head" id="TOP_HEADER" align="center">Monarrk</h1>
+			</div>
+			<hr>
+			
+			<div class="text">
+				<h3>Who is Monarrk?</h3>
+				<p>Hi! I'm Skye Bleed, also known as Monarrk. I do things like break computers, play music, and pretend I know how to hack.</p>
+			</div>
+	
+			<div class="text">
+				<h3>Stuff I'm (currently) Interested In</h3>
+				<p>A more up-to-date view of what I'm working on can be found on <a href="http://github.com/monarrk" target="_blank">my github</a>, but at the moment I'm interested in:
+				<ul>
+					<li><a href="http://ziglang.org" target="_blank">Zig</a></li>
+					<li>Systems administration</li>
+					<li>Cybersecurity/Penetration testing</li>
+				</ul>
+			</div>
+			
+			<div class="text">
+				<h3>Contacts</h3>
+				<a href="http://github.com/monarrk" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50" class="hoverable"/></a>
+				<a href="http://www.reddit.com/user/its_not_monarrk" target="_blank"><img src="https://www.redditstatic.com/new-icon.png" width="50" height="50" class="hoverable"/></a>
+				<a href="https://instagram.com/skye.bleed.bat/" target="_blank"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fsocial-messaging-ui-color-shapes-2-free%2F128%2Fsocial-instagram-new-circle-512.png&f=1" width="50" height="50" class="hoverable"/></a>
+				<a href="https://cybre.space/@monarrk" target="_blank"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F48%2FMastodon_Logotype_%2528Simple%2529.svg%2F559px-Mastodon_Logotype_%2528Simple%2529.svg.png&f=1" width="50" height="50" target="_blank" class="hoverable"/></a>
+				<a href="https://twitter.com/its_not_monarrk" target="_blank"><img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.stickpng.com%2Fassets%2Fimages%2F580b57fcd9996e24bc43c53e.png&f=1" height="50" width="50"></a>
+				<p><strong>Mail and PGP Key</strong></p>
+				<p>Mail: <a href="mailto:skyebleed@mailfence.com">skyebleed@mailfence.com</a></p>
+				<code>-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
+				mQENBFzW4HwBCACzK9k7xk6xc1YF2Qu8R5mSa49BEq32NPDMW7H6snjDtBsUEEUI<br/>
+				JZLeV/a5CuNGJu1fiJqsemd9jyBbT049BkmpAVsOgAQdfRx6W4Wb7xbnlfFCXsIQ<br/>
+				Yd566FiQk4tSFyZYsohSaocMioZncto6qtlu2m5ZjSEJSEC3RHX9qyaTy5B8CPwj<br/>
+				2R/vBZCE8CLI5sNBFuvfTthiPHTehwvVelKd3dEBCvonsSqrjIL6/vTz0485INZ4<br/>
+				lwVe90dSNBa3OLOo0bx3m+6UXFmqE0SEPKfXOIoSpHboTltm/3N+YBrLrgPtxS/c<br/>
+				WhYJC6VPZhG54ufKFgUcSXg0va8S+ldva3iJABEBAAG0SFNreWUgQmxlZWQgKFRo<br/>
+				ZSBrZXlzIGZvciBTa3llICJNb25hcnJrIiBCbGVlZCkgPHNreWVibGVlZEBtYWls<br/>
+				ZmVuY2UuY29tPokBPgQTAQIAKAUCXNbgfAIbAwUJEswDAAYLCQgHAwIGFQgCCQoL<br/>
+				BBYCAwECHgECF4AACgkQNOasIohskSNkawf/SbMwLiD8vIBWYVM3tFo9i+wmMd9J<br/>
+				bUghuP8eB+67DZpeSA1fF+UTwTn2K9dUIUkvLgWQIl9TjSx/BxV98EawhNUEydZ/<br/>
+				s34YHRXWhlViTiuU3kSBvWJ4QSXayC/KPkTDFPNx/NNLEGIo6FY90l4Yb41g1EZl<br/>
+				XS8l1t+lXd84T+f+hijL7r8GgsOzHnc+xpVYP05AhzJAxins79f1C35emqJp8XiE<br/>
+				Z6Uy0N92a3+4ayUGV17zNTnj8caliKfeb/GU6BLnZfgVyvQwAvnzrhAsDWR6v1qu<br/>
+				h6kC2dSdjIuBhqan3LJOXBRkIWx4xVFPLIXCC1bLWS1qyQhGoQiP6uXXbrkBDQRc<br/>
+				1uB8AQgArOelubmXHnagL7BjP3WyogGLoMbU2rvOWjfPDONsVP8ttU1GjK/L0yiR<br/>
+				oDlxj3lLpCYUKI+YbLV8Vw2PHpPn7lX6ixdeu7MF2fTNL0M2RhvidRT/BspDfONS<br/>
+				s8MEj6QqzLdMtribwy+Qjc7C9fbueHZv+z3Y867FqsQGBfpLLcxGmYZHf2Dqvhkt<br/>
+				VYCkQAlhn0TVez3ORKGS1kxYIIOm/JSFwgi9g2pXPOrbwGuRhuLUeech4K6M00pM<br/>
+				lkvT/F0WN6n0QtL9nEBupUBtOhCLW8RcVY9CB3TXsYjPSbeGX9AXWb+WBUeLQ+Hz<br/>
+				FmLhBYVJKTi9VfSNGMZ9xj0hqcbW/wARAQABiQElBBgBAgAPBQJc1uB8AhsMBQkS<br/>
+				zAMAAAoJEDTmrCKIbJEjo6gH/i/eDQ/LgLlMF1sjD2F3BKUnsAtWJvfuOp4WXUJY<br/>
+				dippBFodyPWO0KLVuhPFeuAGS5YDlL//Z+YvU3VNk/RfgDSTSBZ4AHfskrBl69V8<br/>
+				iGzW0mVOcJ4De6ieIQCskbNnUCpx+ulDyU0yMBN8wRW1eBK4Rmhpww0qb6dwPI+2<br/>
+				QagCt86mhAc0hBb4GmHWepiqP6FsGD7PgWogxkYx6e2/EOtQFgnV1RG56nGHI8nT<br/>
+				oUagyggnIL8nGbLx1ldIc997tmNAsbznLM0XC4bRXS/5oynz9f88mmfn7DOZEpp/<br/>
+				3JAuqSielLOIHHj3HqSgLpwXM2I2+7poB4uw+zcSrFm4K+Y=<br/>
+				=zgLr<br/>
+				-----END PGP PUBLIC KEY BLOCK-----
+				</code>
+			</div>
+		</div>
+	</body>
+
+	<script>
+		var messages = ["what the heck is even going on",
+			"we're hacking you right now!",
+			"welcome",
+			"sorry you had to see this",
+			"hhhhhhhhhhhhhhhhhhh",
+			"you watch anime",
+			"hey, i didn't see you there",
+			"hi",
+			"hello, [Object object]",
+			"doot doot",
+			"why not rewrite it in rust?",
+			"you're gay",
+			"written in vim!",
+		 ];
+
+		function msggen() {
+			document.getElementById("TOP_HEADER").innerHTML = messages[Math.floor(Math.random() * messages.length)];
+		}
+	</script>
+</html>
