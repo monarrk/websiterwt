@@ -1,126 +1,46 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Monarrk</title>
-		<!--THIS ICON IS FROM [GIANT DAYS](https://www.boom-studios.com/series/giant-days/); I DO NOT OWN IT-->
-		<link rel="icon" href="https://cdn.glitch.com/011624e3-bd8f-4622-b19d-81054a5d0d61%2Fmonarrkcirc.gif?1556730693033">
-	</head>
-
-	<style>
-		@import url('https://fonts.googleapis.com/css?family=Gentium+Basic|Libre+Baskerville');
-
-		body {
-			background-color: #191919;
-			color: white;
-			font-family: 'Gentium Basic', serif;
-		}
-
-		.text {
-			background-color: white;
-			color: black;
-			padding: 2em;
-			text-align: center;
-			margin: 5em;
-			transition-duration: 0.4s;
-		}
-		.text:hover {
-			transform: translate(10px, 10px);
-		}
-
-		.head {
-			font-size: 10em;
-		}
-		
-		h1, h3 {
-			font-size: 3em;
-			 font-family: 'Libre Baskerville', serif;
-		}
-
-		code {
-			text-align: left;
-			font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-			color: #52595d;
-			-webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
-			border-radius: 3px;
-			-moz-background-clip: padding;
-			-webkit-background-clip: padding-box;
-			background-clip: padding-box;
-			border: 1px solid #ccc;
-			background-color: #f9f9f9;
-			padding: 6px 6px;
-			display: inline-block;
-			margin: 0px;
-		}
-	</style>
-
-	<body onload="msggen()">
-		<div id="vm">
-			<div class="text" onclick="msggen()">
-				<h1 class="head" id="TOP_HEADER" align="center">Monarrk</h1>
-			</div>
-			<hr>
-			
-			<div class="text">
-				<h3>What is this? Who are you? Why am I here?</h3>
-				<p>Get a hold of yourself there! You needn't worry, traveler! I am Skye "Monarrk" Bleed, and I will treat you well. I like Spanish, breaking computers, and card games. This is my super low bandwidth (!!!) website. You may be here because you want to know more about me or due to a routing error somewhere in space. If you <i>are</i> from space, that is super rad please talk to me. If not, maybe don't do that.</p>
-			</div>
-	
-			<div class="text">
-				<h3>Stuff I'm (currently) Interested In</h3>
-				<p>A more up-to-date view of what I'm working on can be found on <a href="http://github.com/monarrk" target="_blank">my github</a>, but at the moment I'm interested in:
-				<ul>
-					<li><a href="https://ziglang.org" target="_blank">Zig</a></li>
-					<li><a href="https://rust-lang.org" target="_blank">Rust</a></li>
-					<li>Systems administration</li>
-					<li>OS development</li>
-					<li>Cybersecurity/Penetration testing</li>
-				</ul>
-			</div>
-			
-			<div class="text">
-				<h3>Socials</h3>
-				<a href="http://github.com/monarrk" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" height="50" class="hoverable"/></a>
-				<a href="http://www.reddit.com/user/its_not_monarrk" target="_blank"><img src="https://www.redditstatic.com/new-icon.png" width="50" height="50" class="hoverable"/></a>
-				<a href="https://instagram.com/skyevsrust/" target="_blank"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fsocial-messaging-ui-color-shapes-2-free%2F128%2Fsocial-instagram-new-circle-512.png&f=1" width="50" height="50" class="hoverable"/></a>
-				<a href="https://cybre.space/@monarrk" target="_blank"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F48%2FMastodon_Logotype_%2528Simple%2529.svg%2F559px-Mastodon_Logotype_%2528Simple%2529.svg.png&f=1" width="50" height="50" target="_blank" class="hoverable"/></a>
-				<p><strong>Mail</strong> (only use this if your name is Alex M. or Alex L.)</p>
-				<p>Mail: <a href="mailto:monarrk@aaathats3as.com">monarrk@aaathats3as.com</a></p>
-			</div>
-		</div>
-	</body>
-
-	<script>
-		var messages = [
-			"what the heck is even going on",
-			"we're hacking you right now!",
-			"welcome",
-			"sorry you had to see this",
-			"hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-			"you watch anime",
-			"hey, i didn't see you there",
-			"hi",
-			"hello, [Object object]",
-			"doot doot",
-			"why not rewrite it in rust?",
-			"you're gay",
-			"written in vim!",
-			"please don't talk to me",
-			"let me interject for a moment...",
-			"beware, there be linux",
-			"chicken",
-			"send complaints to /dev/null!",
-			"java is, in fact, a server lang",
-			"valid to eat fingers",
-			"cállat, boomer",
-			"updates every 10 months!",
-			"welcome to math class!",
-			"#define You \"trash\"",
-		 ];
-
-		function msggen() {
-			document.getElementById("TOP_HEADER").innerHTML = messages[Math.floor(Math.random() * messages.length)];
-		}
-	</script>
+  <head>
+    <title>Skye Bleed :: Home</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <h1 id="head">Skye Bleed</h1>
+    <p>[Skye Bleed] is a developer and musician who likes computers and music. They spend their time creating and contributing to open source projects along with thinking about operating systems and languages for far too long. Their work can be found on <a href="https://github.com/monarrk" target="_blank">Github</a> or (rarely) on <a href="https://git.sr.ht/~monarrk" target="_blank">SourceHut</a>.</p>
+    
+    <h3>Proyectos más destacados</h3>
+    <ul>
+      <li><a href="https://github.com/monarrk/obscuro">Obscuro</a> - a kernel project written in the rust programming language.</li>
+      <li><a href="https://github.com/monarrk/jerk" target="_blank">Jerk</a> - abusing the C preprocessor.</li>
+      <li><a href="https://github.com/monarrk/fuck" target="_blank">FRC USB Connection Kit</a> - easy automatic transfer of files to and from USB devices or Android SD cards written only in shell.</li>
+      <li><a href="https://github.com/SalineSingularityFRC/ssssctl" target="_blank">SSSSCTL</a> - RFCOMM controller for the Saline Singularity Scouting Station.</li>
+      <li><a href="https://glitch.com/~monarrk" target="_blank">This Website</a> - the one you're looking at right this instant.</li>
+    </ul>
+    
+    <h3>Intereses (en este momento)</h3>
+    <ul>
+      <li>Security</li>
+      <li>Operating systems</li>
+      <li>Languages (natural, constructed, or otherwise)</li>
+      <li>Music (guitar and baritone) and electronic production (wannabe Laura Les)</li>
+      <li>Eating the rich</li>
+    </ul>
+  </body>
+  
+  <script>
+    let gen = (msgs, head) => head.innerHTML = msgs[Math.floor(Math.random() * msgs.length)];
+    let msgs = [
+      "I <3 James Gosling",
+      "Updated every 7000 years!",
+      "Written in ViM",
+      "Why not rewrite it in Rust?",
+      "hhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+      "Send complaints to /dev/null!",
+      "Self proclaimed Dwarf Fortress master",
+      "H4X0R M0D3",
+      "Who needs CSS?"
+    ];
+    let head = document.getElementById("head");
+    gen(msgs, head);
+  </script>
 </html>
